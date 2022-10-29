@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "FigurenTheater\\Core\\": "src/"
+            "Figuren_Theater\\Core\\": "src/"
         }
     },
     "authors": [
