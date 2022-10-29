@@ -1,0 +1,19 @@
+{
+    "name": "figuren-theater/ft-core",
+    "description": "Core components used from everywhere",
+    "type": "wordpress-muplugin",
+    "license": "GPL-3",
+    "autoload": {
+        "psr-4": {
+            "FigurenTheater\\FtCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carsten Bach"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1"
+    }
+}
