@@ -1,9 +1,9 @@
 
 {
   "name": "ft-core",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "main": "Gruntfile.js",
-  "author": "YOUR NAME HERE",
+  "author": "Carsten Bach",
   "scripts" : {
     "start" : "grunt default" ,
     "readme" : "grunt readme",
