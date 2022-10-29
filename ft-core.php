@@ -7,7 +7,7 @@
  * Author URI:      https://carsten-bach.de
  * Text Domain:     ft-core
  * Domain Path:     /languages
- * Version:         1.0.1
+ * Version:         1.0.4
  *
  * @package         Ft_Core
  */
