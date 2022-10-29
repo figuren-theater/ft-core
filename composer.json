@@ -3,6 +3,10 @@
     "description": "Core components used from everywhere",
     "type": "wordpress-muplugin",
     "license": "GPL-3",
+    "version": "1.0.1",
+    "extra": {
+        "installer-name": "core"
+    },
     "autoload": {
         "psr-4": {
             "FigurenTheater\\FtCore\\": "src/"
