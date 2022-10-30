@@ -1,9 +1,3 @@
-# ft-core
-Core components used from everywhere
+# figuren.theater | Core
+Core components for a WordPress Multisite plattform like [figuren.theater](https://figuren.theater).
 
-## PSR-4 autoloading 
-Use `namespace FigurenTheater\FtCore;` in `src/`
-
-Include the Composer autoloader with: 
-
-`require 'vendor/autoload.php';`
