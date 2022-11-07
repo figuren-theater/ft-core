@@ -3,7 +3,7 @@
     "description": "Core components for a WordPress Multisite plattform like figuren.theater",
     "type": "composer-plugin",
     "license": "GPL-3",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "autoload": {
         "classmap": [
             "inc/"
@@ -22,6 +22,6 @@
     "extra": {
         "installer-name": "Core",
         "class": "Altis\\Composer\\Plugin",
-        "altis": {},
+        "altis": {}
     }
 }
