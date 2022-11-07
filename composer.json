@@ -11,7 +11,8 @@
     },
     "authors": [
         {
-            "name": "Carsten Bach"
+            "name": "figuren.theater",
+            "email": "info@figuren.theater"
         }
     ],
     "require": {
@@ -20,8 +21,12 @@
         "composer-plugin-api": "^1.1 || ^2.0"
     },
     "extra": {
-        "installer-name": "Core",
         "class": "Altis\\Composer\\Plugin",
         "altis": {}
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
     }
 }
