@@ -1,9 +1,9 @@
 {
     "name": "figuren-theater/ft-core",
     "description": "Core components for a WordPress Multisite plattform like figuren.theater",
-    "type": "wordpress-muplugin",
+    "type": "composer-plugin",
     "license": "GPL-3",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "autoload": {
         "classmap": [
             "inc/"
@@ -16,9 +16,12 @@
     ],
     "require": {
         "php": ">=7.1",
-        "composer/installers": "~1"
+        "composer/installers": "~1",
+        "composer-plugin-api": "^1.1 || ^2.0"
     },
     "extra": {
-        "installer-name": "Core"
+        "installer-name": "Core",
+        "class": "Altis\\Composer\\Plugin",
+        "altis": {},
     }
 }
