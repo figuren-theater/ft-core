@@ -3,7 +3,7 @@
     "description": "Core components for a WordPress Multisite plattform like figuren.theater",
     "type": "composer-plugin",
     "license": "GPL-3",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "autoload": {
         "classmap": [
             "inc/"
