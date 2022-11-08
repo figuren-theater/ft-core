@@ -209,7 +209,8 @@ class Plugin implements PluginInterface, EventSubscriberInterface {
 		}
 
 		$package = $operation instanceof UpdateOperation ? $operation->getTargetPackage() : $operation->getPackage();
-		if ( $package->getName() !== 'altis/core' ) {
+		// if ( $package->getName() !== 'altis/core' ) {
+		if ( $package->getName() !== 'figuren-theater/ft-core' ) {
 			return;
 		}
 
