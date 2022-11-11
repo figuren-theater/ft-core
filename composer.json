@@ -2,19 +2,18 @@
     "name": "figuren-theater/ft-core",
     "description": "Core components for a WordPress Multisite plattform like figuren.theater",
     "type": "composer-plugin",
-    "license": "GPL-3",
-    "version": "1.0.12",
-    "autoload": {
-        "classmap": [
-            "inc/"
-        ]
-    },
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "figuren.theater",
             "email": "info@figuren.theater"
         }
     ],
+    "autoload": {
+        "classmap": [
+            "inc/"
+        ]
+    },
     "require": {
         "php": ">=7.1",
         "composer/installers": "~1",
