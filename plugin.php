@@ -9,11 +9,18 @@
  * Domain Path:     /languages
  * Version:         1.0.15
  *
- * @package         Figuren_Theater\Core
+ * @package         Figuren_Theater
  */
 
 
-namespace Figuren_Theater\Core;
+namespace Figuren_Theater;
+
+use function Altis\load_enabled_modules;
+use function Altis\register_module;
+
+use add_action;
+use add_filter;
+use do_action;
 
 const DIRECTORY = __DIR__;
 
@@ -34,6 +41,7 @@ const DIRECTORY = __DIR__;
 
 // Patch plugins URL for vendor directory.
 // add_filter( 'plugins_url', 'Altis\\fix_plugins_url', 10, 3 );
+add_filter( 'plugins_url', __NAMESPACE__ . '\\fix_plugins_url', 1000, 3 );
 
 // Ensure WP_ENVIRONMENT_TYPE is set.
 // add_action( 'altis.loaded_autoloader', 'Altis\\set_wp_environment_type', -10 );
@@ -46,12 +54,12 @@ add_action( 'altis.loaded_autoloader', function () {
 	do_action( 'altis.modules.init' );
 
 	// Load modules.
-	load_enabled_modules();
+	Altis\load_enabled_modules();
 }, 0 );
 
 // Register core module.
 add_action( 'altis.modules.init', function () {
-	register_module(
+	Altis\register_module(
 		'core',
 		DIRECTORY,
 		'Core',
