@@ -1,7 +1,7 @@
 {
     "name": "figuren-theater/ft-core",
     "description": "Core components for a WordPress multisite plattform like figuren.theater",
-    "type": "composer-plugin",
+    "type": "wordpress-muplugin",
     "homepage": "https://websites.fuer.figuren.theater",
     "keywords": ["wordpress", "composer", "theater", "altis"],
     "license": "GPL-3.0-or-later",
