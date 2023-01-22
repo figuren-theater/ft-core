@@ -15,6 +15,8 @@
 
 namespace Figuren_Theater;
 
+use FT_ROOT_DIR;
+
 use Altis;
 use function Altis\load_enabled_modules;
 use function Altis\register_module;
@@ -25,12 +27,17 @@ use do_action;
 
 const DIRECTORY = __DIR__;
 
+// This is usually done in altis/wp-config.php
+// and needed in 'figuren-theater/altis-core'
+define( 'Altis\ROOT_DIR', FT_ROOT_DIR );
+
+
 /**
  * This is the replacement for 
  * https://github.com/figuren-theater/altis-core/blob/master/load.php
  * which is not loaded as usual.
  *
- * Here only ~50% of the humanmade-original is loaded.
+ * Here only ~50% of the humanmade-original are loaded.
  *
  * ------------------------------------------------------------------
  * 

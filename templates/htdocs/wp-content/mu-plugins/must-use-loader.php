@@ -48,9 +48,6 @@ defined( 'ABSPATH' ) || exit;
 
 add_action( 'mu_plugin_loaded', function () {
 
-	// is done in altis/wp-config.php
-	define( 'Altis\ROOT_DIR', '/shared/httpd/figuren/htdocs' );
-
 	// load modules one by one
 	// should be done by composer 
 	array_map(
