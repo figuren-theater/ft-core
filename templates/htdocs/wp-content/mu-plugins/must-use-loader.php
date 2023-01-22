@@ -15,8 +15,6 @@ namespace Figuren_Theater;
 
 use FT_VENDOR_DIR;
 
-use Altis; // get_config()
-
 use WP_PLUGIN_DIR;
 use WPMU_PLUGIN_DIR;
 
@@ -29,7 +27,7 @@ use function get_current_network_id;
 
 const FT_PACKAGES = [
 	'ft-admin-ui',
-	'ft-core', // this should be ther very first to load
+	'ft-core', // this will be loaded first
 	'ft-data',
 	'ft-interactive',
 	'ft-maintenance',

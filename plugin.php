@@ -15,6 +15,7 @@
 
 namespace Figuren_Theater;
 
+use Altis;
 use function Altis\load_enabled_modules;
 use function Altis\register_module;
 

@@ -13,27 +13,34 @@
 
 namespace Figuren_Theater;
 
+use FT_VENDOR_DIR;
+
+use WP_CONTENT_URL;
+
+use Altis;
+use function Altis\get_config as get_altis_config;
+
+use function apply_filters;
 
 /**
  * Bootstrap any core functions as necessary.
  */
 function bootstrap() {
-//	About\bootstrap();
-//	Upgrades\bootstrap();
-//	Telemetry\bootstrap();
+	//	About\bootstrap();
+	//	Upgrades\bootstrap();
+	//	Telemetry\bootstrap();
 
-//	Global_Content\bootstrap();
+	//	Global_Content\bootstrap();
 
-//	// Register the Altis command.
-//	if ( defined( 'WP_CLI' ) && WP_CLI ) {
-//		WP_CLI::add_command( 'altis', __NAMESPACE__ . '\\Command' );
-//		// Bind the migrate command to run after initial install.
-//		WP_CLI::add_hook( 'after_invoke:core multisite-install', function () {
-//			WP_CLI::runcommand( 'altis migrate' );
-//		} );
-//	}
+	//	// Register the Altis command.
+	//	if ( defined( 'WP_CLI' ) && WP_CLI ) {
+	//		WP_CLI::add_command( 'altis', __NAMESPACE__ . '\\Command' );
+	//		// Bind the migrate command to run after initial install.
+	//		WP_CLI::add_hook( 'after_invoke:core multisite-install', function () {
+	//			WP_CLI::runcommand( 'altis migrate' );
+	//		} );
+	//	}
 }
-
 
 
 /**
@@ -58,7 +65,7 @@ $_original_url = $url;
 	$hostname = rtrim( $hostname, '/' );
 
 	$_needle = [
-		\WP_CONTENT_URL . '/plugins' . FT_VENDOR_DIR,
+		WP_CONTENT_URL . '/plugins' . FT_VENDOR_DIR,
 		// 'https://' . \DOMAIN_CURRENT_SITE . FT_VENDOR_DIR,
 		'https://' . $hostname . FT_VENDOR_DIR,
 	];
@@ -84,7 +91,8 @@ $_original_url = $url;
  * @return array Configuration data.
  */
 function get_config() : array {
-	$config = Altis\get_config();
+	// $config = Altis\get_config();
+	$config = get_altis_config();
 
 	if ( function_exists( 'apply_filters' ) ) {
 		/**
