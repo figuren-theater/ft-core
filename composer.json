@@ -34,6 +34,14 @@
         {
             "type": "git",
             "url": "https://github.com/figuren-theater/altis-core"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/figuren-theater/ft-dev-tools"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/figuren-theater/code-quality"
         }
     ],
     "require": {
@@ -44,7 +52,13 @@
     },
     "config": {
         "allow-plugins": {
-            "composer/installers": true
+            "composer/installers": true,
+            "koodimonni/composer-dropin-installer": true,
+            "figuren-theater/altis-core": true,
+            "phpstan/extension-installer": true
         }
+    },
+    "require-dev": {
+        "figuren-theater/code-quality": "^0.1"
     }
 }
