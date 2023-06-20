@@ -102,5 +102,5 @@ function get_config() : array {
 }
 
 function an_empty_unused_fn_to_trigger__phpstan() {
-	// an empty line
+	// an empty line with no dot
 }
