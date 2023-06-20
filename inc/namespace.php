@@ -100,3 +100,7 @@ function get_config() : array {
 
 	return $config;
 }
+
+function an_empty_unused_fn_to_trigger__phpstan() {
+	
+}
