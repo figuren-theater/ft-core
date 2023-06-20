@@ -1,0 +1,9 @@
+name: Static code analysis for figuren.theater
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-workflow-build-test-measure:
+    uses: figuren-theater/code-quality/.github/workflows/build-test-measure.yml@main
+    secrets: inherit
