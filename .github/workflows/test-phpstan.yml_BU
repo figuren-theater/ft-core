@@ -1,0 +1,17 @@
+name: Static code analysis for figuren.theater
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - develop
+      # Include all release branches.
+      - '[0-9]+.[0-9]+'
+  pull_request:
+    # Run workflow whenever a PR is opened, updated (synchronized), or marked ready for review.
+    types: [opened, synchronize, ready_for_review]
+
+jobs:
+  call-workflow-build-test-measure:
+    uses: figuren-theater/code-quality/.github/workflows/build-test-measure.yml@main
+    secrets: inherit
