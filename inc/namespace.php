@@ -103,7 +103,7 @@ function get_config() : array {
 
 function an_empty_unused_fn_to_trigger__phpstan( $test, $value ) {
 
-	// an empty line with no dot
+	// an empty line with no dot at the end
 
 	$var = 0;
 }
