@@ -8,7 +8,8 @@ includes:
 parameters:
     level: max
     inferPrivatePropertyTypeFromConstructor: true
-#    bootstrapFiles:
+    bootstrapFiles:
+        - .%currentWorkingDirectory%/vendor/php-stubs/wordpress-globals/wordpress-globals.php
 #        # Missing constants, function and class stubs
 #        - %currentWorkingDirectory%/tests/phpstan/bootstrap.php
 #    scanFiles:
