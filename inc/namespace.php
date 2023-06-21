@@ -24,6 +24,8 @@ use function apply_filters;
 
 /**
  * Bootstrap any core functions as necessary.
+ *
+ * @return void
  */
 function bootstrap() :void {
 	// Maybe this could be re-enabled / re-used at some point.
@@ -36,11 +38,11 @@ function bootstrap() :void {
 
 	// Register the Altis command.
 	// if ( defined( 'WP_CLI' ) && WP_CLI ) {
-	// WP_CLI::add_command( 'altis', __NAMESPACE__ . '\\Command' );
-	// Bind the migrate command to run after initial install.
-	// WP_CLI::add_hook( 'after_invoke:core multisite-install', function () {
-	// WP_CLI::runcommand( 'altis migrate' );
-	// } );
+		// WP_CLI::add_command( 'altis', __NAMESPACE__ . '\\Command' );
+		// Bind the migrate command to run after initial install.
+		// WP_CLI::add_hook( 'after_invoke:core multisite-install', function () {
+			// WP_CLI::runcommand( 'altis migrate' );
+		// } );
 	// }
 }
 
