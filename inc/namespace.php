@@ -26,6 +26,8 @@ use function apply_filters;
  * Bootstrap any core functions as necessary.
  */
 function bootstrap() :void {
+	// Maybe this could be re-enabled / re-used at some point.
+
 	// About\bootstrap();
 	// Upgrades\bootstrap();
 	// Telemetry\bootstrap();
@@ -84,9 +86,10 @@ function fix_plugins_url( string $url, string $path, string $plugin = null ) : s
  * The configuration is defined by merging the defaults set by modules
  * with any overrides present in composer.json.
  *
- * @return array<array> Configuration data.
+ * @return array<mixed> Configuration data.
  */
 function get_config() : array {
+
 	$config = get_altis_config();
 
 	if ( function_exists( 'apply_filters' ) ) {
@@ -99,11 +102,4 @@ function get_config() : array {
 	}
 
 	return $config;
-}
-
-function an_empty_unused_fn_to_trigger__phpstan( $test, $value ) {
-
-	// an empty line with no dot
-
-	$var = 0;
 }
