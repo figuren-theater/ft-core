@@ -84,7 +84,7 @@ function fix_plugins_url( string $url, string $path, string $plugin = null ) : s
  * The configuration is defined by merging the defaults set by modules
  * with any overrides present in composer.json.
  *
- * @return array<array> Configuration data.
+ * @return array<mixed> Configuration data.
  */
 function get_config() : array {
 	$config = get_altis_config();
@@ -99,11 +99,4 @@ function get_config() : array {
 	}
 
 	return $config;
-}
-
-function an_empty_unused_fn_to_trigger__phpstan( $test, $value ) {
-
-	// an empty line with no dot at the end
-
-	$var = 0;
 }
