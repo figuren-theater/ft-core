@@ -26,6 +26,8 @@ use function apply_filters;
  * Bootstrap any core functions as necessary.
  */
 function bootstrap() :void {
+	// Maybe this could be re-enabled / re-used at some point.
+
 	// About\bootstrap();
 	// Upgrades\bootstrap();
 	// Telemetry\bootstrap();
@@ -87,6 +89,7 @@ function fix_plugins_url( string $url, string $path, string $plugin = null ) : s
  * @return array<mixed> Configuration data.
  */
 function get_config() : array {
+
 	$config = get_altis_config();
 
 	if ( function_exists( 'apply_filters' ) ) {
