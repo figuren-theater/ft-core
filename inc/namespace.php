@@ -101,6 +101,8 @@ function get_config() : array {
 	return $config;
 }
 
-function an_empty_unused_fn_to_trigger__phpstan() {
+function an_empty_unused_fn_to_trigger__phpstan( $test ) {
 	// an empty line with no dot
+
+	$var = 0;
 }
