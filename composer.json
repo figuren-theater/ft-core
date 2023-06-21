@@ -37,10 +37,6 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/figuren-theater/ft-dev-tools"
-        },
-        {
-            "type": "git",
             "url": "https://github.com/figuren-theater/code-quality"
         }
     ],
