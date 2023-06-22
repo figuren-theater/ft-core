@@ -55,6 +55,6 @@
         }
     },
     "require-dev": {
-        "figuren-theater/code-quality": "^0.1"
+        "figuren-theater/code-quality": "dev-main"
     }
 }
