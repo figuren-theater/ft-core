@@ -20,8 +20,8 @@ parameters:
 #    autoload_directories:
 #        - %currentWorkingDirectory%/inc/
     paths:
-        - %currentWorkingDirectory%/plugin.php
         - %currentWorkingDirectory%/inc/
+        - %currentWorkingDirectory%/plugin.php
     # excludePaths:
     #    - %currentWorkingDirectory%/vendor/
     ignoreErrors:
