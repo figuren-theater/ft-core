@@ -24,24 +24,29 @@ use function apply_filters;
 
 /**
  * Bootstrap any core functions as necessary.
+ *
+ * @return void
  */
 function bootstrap() :void {
-	// Maybe this could be re-enabled / re-used at some point.
+	/*
+	 * Maybe this could be re-enabled / re-used at some point.
+	 *
 
-	// About\bootstrap();
-	// Upgrades\bootstrap();
-	// Telemetry\bootstrap();
+	About\bootstrap();
+	Upgrades\bootstrap();
+	Telemetry\bootstrap();
 
-	// Global_Content\bootstrap();
+	Global_Content\bootstrap();
 
-	// Register the Altis command.
-	// if ( defined( 'WP_CLI' ) && WP_CLI ) {
-	// WP_CLI::add_command( 'altis', __NAMESPACE__ . '\\Command' );
-	// Bind the migrate command to run after initial install.
-	// WP_CLI::add_hook( 'after_invoke:core multisite-install', function () {
-	// WP_CLI::runcommand( 'altis migrate' );
-	// } );
-	// }
+	Register the Altis command.
+	if ( defined( 'WP_CLI' ) && WP_CLI ) {
+		WP_CLI::add_command( 'altis', __NAMESPACE__ . '\\Command' );
+		Bind the migrate command to run after initial install.
+		WP_CLI::add_hook( 'after_invoke:core multisite-install', function () {
+			WP_CLI::runcommand( 'altis migrate' );
+		} );
+	}
+	*/
 }
 
 
@@ -51,6 +56,7 @@ function bootstrap() :void {
  * @param string $url The current plugin URL.
  * @param string $path The relative path to a file in the plugin folder.
  * @param string $plugin The absolute path to the plugin file.
+ *
  * @return string
  */
 function fix_plugins_url( string $url, string $path, string $plugin = null ) : string {
