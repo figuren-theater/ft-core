@@ -63,6 +63,7 @@ Thoose are completely managed by code and lack of their typical UI.
 ## Built with & uses
 
   - [dependabot](/.github/dependabot.yml)
+  - [Build, test & measure](https://github.com/figuren-theater/code-quality/blob/main/.github/workflows/build-test-measure.yml) - a custom, but *required* status check for code-quality on all *push*s and *pull_request*s
 
 ## Contributing
 
