@@ -1,10 +1,14 @@
 {
     "name": "figuren-theater/ft-core",
     "description": "Core components for a WordPress multisite plattform like figuren.theater",
-    "type": "wordpress-muplugin",
-    "homepage": "https://websites.fuer.figuren.theater",
-    "keywords": ["wordpress", "composer", "theater", "altis"],
     "license": "GPL-3.0-or-later",
+    "type": "wordpress-muplugin",
+    "keywords": [
+        "wordpress",
+        "composer",
+        "theater",
+        "altis"
+    ],
     "authors": [
         {
             "name": "figuren.theater",
@@ -17,18 +21,20 @@
             "role": "Developer"
         }
     ],
+    "homepage": "https://websites.fuer.figuren.theater",
     "support": {
         "email": "info@figuren.theater",
         "issues": "https://github.com/figuren-theater/ft-core/issues",
         "source": "https://github.com/figuren-theater/ft-core"
     },
-    "autoload": {
-        "files": [
-            "inc/namespace.php"
-        ],
-        "classmap": [
-            "inc/"
-        ]
+    "require": {
+        "php": ">=7.1",
+        "composer/installers": "^1.12",
+        "figuren-theater/altis-core": "^0.1",
+        "koodimonni/composer-dropin-installer": "^1.4"
+    },
+    "require-dev": {
+        "figuren-theater/code-quality": "dev-main"
     },
     "repositories": [
         {
@@ -40,21 +46,21 @@
             "url": "https://github.com/figuren-theater/code-quality"
         }
     ],
-    "require": {
-        "php": ">=7.1",
-        "composer/installers": "^1.12",
-        "figuren-theater/altis-core": "^0.1",
-        "koodimonni/composer-dropin-installer": "^1.4"
+    "autoload": {
+        "classmap": [
+            "inc/"
+        ],
+        "files": [
+            "inc/namespace.php"
+        ]
     },
     "config": {
         "allow-plugins": {
             "composer/installers": true,
             "koodimonni/composer-dropin-installer": true,
             "figuren-theater/altis-core": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "ergebnis/composer-normalize": true
         }
-    },
-    "require-dev": {
-        "figuren-theater/code-quality": "^0.1"
     }
 }
