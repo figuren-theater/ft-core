@@ -51,7 +51,8 @@
             "composer/installers": true,
             "koodimonni/composer-dropin-installer": true,
             "figuren-theater/altis-core": true,
-            "phpstan/extension-installer": true
+            "phpstan/extension-installer": true,
+            "ergebnis/composer-normalize": true
         }
     },
     "require-dev": {
