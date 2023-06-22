@@ -56,6 +56,7 @@ function bootstrap() :void {
  * @param string $url The current plugin URL.
  * @param string $path The relative path to a file in the plugin folder.
  * @param string $plugin The absolute path to the plugin file.
+ *
  * @return string
  */
 function fix_plugins_url( string $url, string $path, string $plugin = null ) : string {
