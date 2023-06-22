@@ -28,22 +28,25 @@ use function apply_filters;
  * @return void
  */
 function bootstrap() :void {
-	// Maybe this could be re-enabled / re-used at some point.
+	/*
+	 * Maybe this could be re-enabled / re-used at some point.
+	 *
 
-	// About\bootstrap();
-	// Upgrades\bootstrap();
-	// Telemetry\bootstrap();
+	About\bootstrap();
+	Upgrades\bootstrap();
+	Telemetry\bootstrap();
 
-	// Global_Content\bootstrap();
+	Global_Content\bootstrap();
 
-	// Register the Altis command.
-	// if ( defined( 'WP_CLI' ) && WP_CLI ) {
-		// WP_CLI::add_command( 'altis', __NAMESPACE__ . '\\Command' );
-		// Bind the migrate command to run after initial install.
-		// WP_CLI::add_hook( 'after_invoke:core multisite-install', function () {
-			// WP_CLI::runcommand( 'altis migrate' );
-		// } );
-	// }
+	Register the Altis command.
+	if ( defined( 'WP_CLI' ) && WP_CLI ) {
+		WP_CLI::add_command( 'altis', __NAMESPACE__ . '\\Command' );
+		Bind the migrate command to run after initial install.
+		WP_CLI::add_hook( 'after_invoke:core multisite-install', function () {
+			WP_CLI::runcommand( 'altis migrate' );
+		} );
+	}
+	*/
 }
 
 
