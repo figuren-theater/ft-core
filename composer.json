@@ -34,7 +34,7 @@
         "koodimonni/composer-dropin-installer": "^1.4"
     },
     "require-dev": {
-        "figuren-theater/code-quality": "dev-main"
+        "figuren-theater/code-quality": "^0.2.0"
     },
     "repositories": [
         {
@@ -44,6 +44,10 @@
         {
             "type": "git",
             "url": "https://github.com/figuren-theater/code-quality"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/figuren-theater/coding-standards"
         }
     ],
     "autoload": {
@@ -60,7 +64,8 @@
             "koodimonni/composer-dropin-installer": true,
             "figuren-theater/altis-core": true,
             "phpstan/extension-installer": true,
-            "ergebnis/composer-normalize": true
+            "ergebnis/composer-normalize": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     }
 }

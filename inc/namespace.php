@@ -13,14 +13,14 @@
 
 namespace Figuren_Theater;
 
+use Altis;
+
 use FT_VENDOR_DIR;
 
-use WP_CONTENT_URL;
-
-use Altis;
 use function Altis\get_config as get_altis_config;
-
 use function apply_filters;
+
+use WP_CONTENT_URL;
 
 /**
  * Bootstrap any core functions as necessary.
@@ -49,7 +49,6 @@ function bootstrap() :void {
 	*/
 }
 
-
 /**
  * Fix the plugins_url for files in the vendor directory
  *
@@ -60,7 +59,7 @@ function bootstrap() :void {
  * @return string
  */
 function fix_plugins_url( string $url, string $path, string $plugin = null ) : string {
-	$_original_url = $url;
+	// $_original_url = $url;
 	// \do_action( 'qm/debug', [ __FUNCTION__, $url, $path, $plugin ] );
 	// the string to find
 	// and replace with 'v' - our symlink to the root vendor folder
@@ -72,11 +71,11 @@ function fix_plugins_url( string $url, string $path, string $plugin = null ) : s
 	}
 	$hostname = rtrim( (string) $hostname, '/' );
 
-	$_needle = array(
+	$_needle = [
 		WP_CONTENT_URL . '/plugins' . FT_VENDOR_DIR,
 		// 'https://' . \DOMAIN_CURRENT_SITE . FT_VENDOR_DIR,
 		'https://' . $hostname . FT_VENDOR_DIR,
-	);
+	];
 
 	if ( strpos( $url, $_needle[0] ) !== false ) {
 		$url = str_replace( $_needle[0], FT_VENDOR_URL, $url );
@@ -84,7 +83,6 @@ function fix_plugins_url( string $url, string $path, string $plugin = null ) : s
 
 	return $url;
 }
-
 
 /**
  * Retrieve the configuration for Altis.

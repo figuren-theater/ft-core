@@ -14,21 +14,18 @@
 
 namespace Figuren_Theater;
 
-use FT_ROOT_DIR;
-
-use Altis;
-use function Altis\load_enabled_modules;
-use function Altis\register_module;
-
 use add_action;
+
 use add_filter;
+use Altis;
 use do_action;
+
+use FT_ROOT_DIR;
 
 const DIRECTORY = __DIR__;
 
 // This is usually done in altis/wp-config.php and needed in 'figuren-theater/altis-core'.
 define( 'Altis\ROOT_DIR', FT_ROOT_DIR );
-
 
 /**
  * This is the replacement for
@@ -43,7 +40,6 @@ define( 'Altis\ROOT_DIR', FT_ROOT_DIR );
  *
  * @package altis/core
  */
-
 
 // Patch plugins URL for vendor directory.
 add_filter( 'plugins_url', __NAMESPACE__ . '\\fix_plugins_url', 1000, 3 );
@@ -71,11 +67,11 @@ add_action(
 			'core',
 			DIRECTORY,
 			'Core',
-			array(
-				'defaults' => array(
+			[
+				'defaults' => [
 					'enabled' => true,
-				),
-			),
+				],
+			],
 			__NAMESPACE__ . '\\bootstrap'
 		);
 	}
