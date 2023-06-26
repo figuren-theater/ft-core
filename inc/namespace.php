@@ -20,8 +20,6 @@ use FT_VENDOR_DIR;
 use function Altis\get_config as get_altis_config;
 use function apply_filters;
 
-use WP_CONTENT_URL;
-
 /**
  * Bootstrap any core functions as necessary.
  *
@@ -52,6 +50,8 @@ function bootstrap() :void {
 /**
  * Fix the plugins_url for files in the vendor directory
  *
+ * @todo #23 Clean up this mess of a function
+ *
  * @param string $url The current plugin URL.
  * @param string $path The relative path to a file in the plugin folder.
  * @param string $plugin The absolute path to the plugin file.
@@ -72,7 +72,7 @@ function fix_plugins_url( string $url, string $path, string $plugin = null ) : s
 	$hostname = rtrim( (string) $hostname, '/' );
 
 	$_needle = [
-		WP_CONTENT_URL . '/plugins' . FT_VENDOR_DIR,
+		\constant( 'WP_CONTENT_URL' ) . '/plugins' . FT_VENDOR_DIR,
 		// 'https://' . \DOMAIN_CURRENT_SITE . FT_VENDOR_DIR,
 		'https://' . $hostname . FT_VENDOR_DIR,
 	];

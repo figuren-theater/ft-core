@@ -34,20 +34,12 @@
         "koodimonni/composer-dropin-installer": "^1.4"
     },
     "require-dev": {
-        "figuren-theater/code-quality": "^0.2.0"
+        "figuren-theater/code-quality": "^0"
     },
     "repositories": [
         {
             "type": "git",
             "url": "https://github.com/figuren-theater/altis-core"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/figuren-theater/code-quality"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/figuren-theater/coding-standards"
         }
     ],
     "autoload": {

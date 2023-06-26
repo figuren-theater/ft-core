@@ -15,7 +15,7 @@ namespace Figuren_Theater\Core\Interfaces;
  * Details are left to the constructor of the implementing classes.
  *
  * @since   2.10
- * 
+ *
  * @author  toscho
  * @see     https://github.com/thefuxia/t5-libraries/blob/master/Core/Resources/Loadable.php
  * @version 2013.12.25
@@ -34,7 +34,7 @@ interface Loadable {
 
 	/**
 	 * Unload.
-	 * 
+	 *
 	 * @package Figuren_Theater\Core\Interfaces\Loadable
 	 * @since   2.10
 	 *
@@ -44,7 +44,7 @@ interface Loadable {
 
 	/**
 	 * Whether or not the resource has been loaded already.
-	 * 
+	 *
 	 * @package Figuren_Theater\Core\Interfaces\Loadable
 	 * @since   2.10
 	 *
