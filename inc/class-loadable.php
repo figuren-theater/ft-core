@@ -2,12 +2,12 @@
 /**
  * Interface to load and unload things.
  *
- * @package Figuren_Theater\Core\Interfaces;
+ * @package Figuren_Theater\Core
  */
 
 declare(strict_types=1);
 
-namespace Figuren_Theater\Core\Interfaces;
+namespace Figuren_Theater\Core;
 
 /**
  * Interface to load and unload things.
@@ -25,7 +25,7 @@ interface Loadable {
 	/**
 	 * Load something.
 	 *
-	 * @package Figuren_Theater\Core\Interfaces\Loadable
+	 * @package Figuren_Theater\Core\Loadable
 	 * @since   2.10
 	 *
 	 * @return bool TRUE on success, FALSE otherwise.
@@ -35,7 +35,7 @@ interface Loadable {
 	/**
 	 * Unload.
 	 *
-	 * @package Figuren_Theater\Core\Interfaces\Loadable
+	 * @package Figuren_Theater\Core\Loadable
 	 * @since   2.10
 	 *
 	 * @return bool TRUE on success, FALSE otherwise.
@@ -45,7 +45,7 @@ interface Loadable {
 	/**
 	 * Whether or not the resource has been loaded already.
 	 *
-	 * @package Figuren_Theater\Core\Interfaces\Loadable
+	 * @package Figuren_Theater\Core\Loadable
 	 * @since   2.10
 	 *
 	 * @return bool
