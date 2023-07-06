@@ -102,7 +102,7 @@ function get_config() : array {
 		 *
 		 * @param array $config The full config array.
 		 */
-		$config = apply_filters( 'Figuren_Theater.config', $config );
+		$config = apply_filters( 'figuren_theater.config', $config );
 	}
 
 	return $config;
