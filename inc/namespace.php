@@ -90,7 +90,7 @@ function fix_plugins_url( string $url, string $path, string $plugin = null ) : s
  * The configuration is defined by merging the defaults set by modules
  * with any overrides present in composer.json.
  *
- * @return array<mixed> Configuration data.
+ * @return mixed[] Configuration data.
  */
 function get_config() : array {
 

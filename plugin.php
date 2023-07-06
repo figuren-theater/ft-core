@@ -1,4 +1,4 @@
-<?php
+<?php // phpcs:ignore PSR1.Files.SideEffects.FoundWithSymbols // impossible to do it another way
 /**
  * Plugin Name:     figuren.theater | Core
  * Plugin URI:      https://github.com/figuren-theater/ft-core
