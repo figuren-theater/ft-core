@@ -2,12 +2,12 @@
 /**
  * Interface to load and unload things.
  *
- * @package Figuren_Theater\Core\Interfaces;
+ * @package Figuren_Theater\Core
  */
 
 declare(strict_types=1);
 
-namespace Figuren_Theater\Core\Interfaces;
+namespace Figuren_Theater\Core;
 
 /**
  * Interface to load and unload things.
@@ -15,7 +15,7 @@ namespace Figuren_Theater\Core\Interfaces;
  * Details are left to the constructor of the implementing classes.
  *
  * @since   2.10
- * 
+ *
  * @author  toscho
  * @see     https://github.com/thefuxia/t5-libraries/blob/master/Core/Resources/Loadable.php
  * @version 2013.12.25
@@ -25,7 +25,7 @@ interface Loadable {
 	/**
 	 * Load something.
 	 *
-	 * @package Figuren_Theater\Core\Interfaces\Loadable
+	 * @package Figuren_Theater\Core\Loadable
 	 * @since   2.10
 	 *
 	 * @return bool TRUE on success, FALSE otherwise.
@@ -34,8 +34,8 @@ interface Loadable {
 
 	/**
 	 * Unload.
-	 * 
-	 * @package Figuren_Theater\Core\Interfaces\Loadable
+	 *
+	 * @package Figuren_Theater\Core\Loadable
 	 * @since   2.10
 	 *
 	 * @return bool TRUE on success, FALSE otherwise.
@@ -44,8 +44,8 @@ interface Loadable {
 
 	/**
 	 * Whether or not the resource has been loaded already.
-	 * 
-	 * @package Figuren_Theater\Core\Interfaces\Loadable
+	 *
+	 * @package Figuren_Theater\Core\Loadable
 	 * @since   2.10
 	 *
 	 * @return bool

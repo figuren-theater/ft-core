@@ -35,17 +35,7 @@ This is the long desc
 
 ## Install
 
-1. Add this repository to your `composer.json`
-```json
-"repositories": [
-    {
-        "type": "git",
-        "url": "https://github.com/figuren-theater/ft-core"
-    }
-]
-```
-
-2. Install via command line
+1. Install via command line
 ```sh
 composer require figuren-theater/ft-core
 ```
@@ -63,7 +53,8 @@ Thoose are completely managed by code and lack of their typical UI.
 ## Built with & uses
 
   - [dependabot](/.github/dependabot.yml)
-  - [Build, test & measure](https://github.com/figuren-theater/code-quality/blob/main/.github/workflows/build-test-measure.yml) - a custom, but *required* status check for code-quality on all *push*s and *pull_request*s
+  - [code-quality](https://github.com/figuren-theater/code-quality/)
+     A set of status checks to ensure high and consitent code-quality for the figuren.theater platform.
 
 ## Contributing
 
