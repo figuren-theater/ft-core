@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2.5 - 2023-07-13
+
+- No changes
+- Just testing the workflow
+
 ## 1.2.4 - 2023-07-13
 
 No changes
