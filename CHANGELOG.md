@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.2.3 - 2023-07-13
+
+- No changes
+- Just testing the workflow
+
 ## 1.2.2 - 2023-07-13
 
 - TRY-and-TEST: Run 'Build, test & measure' local instead of global ([#28](https://github.com/figuren-theater/ft-core/pull/28))
