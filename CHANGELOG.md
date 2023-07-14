@@ -7,46 +7,11 @@ All notable changes to this project will be documented in this file.
 <!-- Content should be placed here -->
 ## [1.2.17](https://github.com/figuren-theater/ft-core/compare/1.2.16...1.2.17) - 2023-07-14
 
-TEST wf 17
-
-## [1.2.16](https://github.com/figuren-theater/ft-core/compare/1.2.15...1.2.16) - 2023-07-14
-
-- No changes
-
-## [1.2.15](https://github.com/figuren-theater/ft-core/compare/1.2.14...1.2.15) - 2023-07-14
-
-- No changes
-
-## [1.2.14](https://github.com/figuren-theater/ft-core/compare/1.2.13...1.2.14) - 2023-07-14
-
-- No changes
-
-## [1.2.13](https://github.com/figuren-theater/ft-core/compare/1.2.12...1.2.13) - 2023-07-14
-
-- No changes
-
-;)
-
-## [1.2.12](https://github.com/figuren-theater/ft-core/compare/1.2.11...1.2.12) - 2023-07-14
-
-- No changes
-
-## [1.2.11](https://github.com/figuren-theater/ft-core/compare/1.2.10...1.2.11) - 2023-07-14
-
-- No changes
-
-## [1.2.10](https://github.com/figuren-theater/ft-core/compare/1.2.9...1.2.10) - 2023-07-14
-
-- No changes
+- No changes (just tested the workflows 18 times)
 
 ## [1.2.9](https://github.com/figuren-theater/ft-core/compare/1.2.8...1.2.9) - 2023-07-14
 
 Trigger updating the version in plugin.php
-
-
----
-
-- No changes
 
 ## [1.2.8](https://github.com/figuren-theater/ft-core/compare/1.2.7...1.2.8) - 2023-07-14
 
@@ -56,43 +21,8 @@ Trigger updating the version in plugin.php
 ### 🚀 Added
 
 - Add a Unreleased heading ([#33](https://github.com/figuren-theater/ft-core/pull/33))
-- 
 - Clean up ([#32](https://github.com/figuren-theater/ft-core/pull/32))
-- 
-- #### Code Checklist
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- - [ ] tested
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- - [ ] documented
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
 - Let Release-drafter run on pull_request to make use of auto-labeler ([#31](https://github.com/figuren-theater/ft-core/pull/31))
-- 
 
 **Full Changelog**: https://github.com/figuren-theater/ft-core/compare/1.2.7...v1.3.0
 
