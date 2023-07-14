@@ -2,9 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.8...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.9...HEAD)
 
 <!-- Content should be placed here -->
+## [1.2.9](https://github.com/figuren-theater/ft-core/compare/1.2.8...1.2.9) - 2023-07-14
+
+Trigger updating the version in plugin.php
+
+
+---
+
+- No changes
+
 ## [1.2.8](https://github.com/figuren-theater/ft-core/compare/1.2.7...1.2.8) - 2023-07-14
 
 - Fix: Remove wrong LICENSE link ([#30](https://github.com/figuren-theater/ft-core/pull/30))
@@ -18,8 +27,11 @@ All notable changes to this project will be documented in this file.
 - 
 - #### Code Checklist
 - 
+- 
 - - [ ] tested
+- 
 - - [ ] documented
+- 
 - 
 - Let Release-drafter run on pull_request to make use of auto-labeler ([#31](https://github.com/figuren-theater/ft-core/pull/31))
 - 
