@@ -3,8 +3,9 @@
 All notable changes to this project will be documented in this file.
 
 
-## Unreleased
+## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.7...HEAD)
 
+<!-- Content should be placed here -->
 ## 1.2.7 - 2023-07-13
 
 - No changes
