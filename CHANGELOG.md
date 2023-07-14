@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.15...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.16...HEAD)
 
 <!-- Content should be placed here -->
+## [1.2.16](https://github.com/figuren-theater/ft-core/compare/1.2.15...1.2.16) - 2023-07-14
+
+- No changes
+
 ## [1.2.15](https://github.com/figuren-theater/ft-core/compare/1.2.14...1.2.15) - 2023-07-14
 
 - No changes
@@ -60,6 +64,7 @@ Trigger updating the version in plugin.php
 - 
 - 
 - 
+- 
 - - [ ] tested
 - 
 - 
@@ -68,7 +73,9 @@ Trigger updating the version in plugin.php
 - 
 - 
 - 
+- 
 - - [ ] documented
+- 
 - 
 - 
 - 
