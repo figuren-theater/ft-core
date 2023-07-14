@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.9...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.10...HEAD)
 
 <!-- Content should be placed here -->
+## [1.2.10](https://github.com/figuren-theater/ft-core/compare/1.2.9...1.2.10) - 2023-07-14
+
+- No changes
+
 ## [1.2.9](https://github.com/figuren-theater/ft-core/compare/1.2.8...1.2.9) - 2023-07-14
 
 Trigger updating the version in plugin.php
@@ -28,9 +32,12 @@ Trigger updating the version in plugin.php
 - #### Code Checklist
 - 
 - 
+- 
 - - [ ] tested
 - 
+- 
 - - [ ] documented
+- 
 - 
 - 
 - Let Release-drafter run on pull_request to make use of auto-labeler ([#31](https://github.com/figuren-theater/ft-core/pull/31))
