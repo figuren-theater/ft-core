@@ -27,7 +27,7 @@
 This is the long desc
 
 * [x] *list closed tracking-issues or `docs` files here*
-* [ ] Do you have any [ideas](issues/new) ?
+* [ ] Do you have any [ideas](https://github.com/figuren-theater/ft-core/issues/new) ?
 
 ## Background & Motivation
 
@@ -36,9 +36,9 @@ This is the long desc
 ## Install
 
 1. Install via command line
-```sh
-composer require figuren-theater/ft-core
-```
+	```sh
+	composer require figuren-theater/ft-core
+	```
 
 ## Usage
 
@@ -73,13 +73,13 @@ Don't forget to give the project a star! Thanks again!
 ## Versioning
 
 We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this repository](tags).
+available, see the [tags on this repository](https://github.com/figuren-theater/ft-core/tags).
 
 ## Authors
 
   - **Carsten Bach** - *Provided idea & code* - [figuren.theater/crew](https://figuren.theater/crew/)
 
-See also the list of [contributors](contributors)
+See also the list of [contributors](https://github.com/figuren-theater/ft-core/contributors)
 who participated in this project.
 
 ## License
