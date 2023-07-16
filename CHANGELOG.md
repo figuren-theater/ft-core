@@ -2,9 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.18...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.19...HEAD)
 
 <!-- Content should be placed here -->
+## [1.2.19](https://github.com/figuren-theater/ft-core/compare/1.2.18...1.2.19) - 2023-07-16
+
+### 🐛 Fixed
+
+- Use the latest version of code-quality tools & make sure phpcs can be run by gh actions ([#36](https://github.com/figuren-theater/ft-core/pull/36))
+
 ## [1.2.18](https://github.com/figuren-theater/ft-core/compare/1.2.17...1.2.18) - 2023-07-15
 
 ### 🐛 Fixed
