@@ -837,23 +837,23 @@
         },
         {
             "name": "figuren-theater/code-quality",
-            "version": "0.5.0",
+            "version": "0.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/figuren-theater/code-quality.git",
-                "reference": "3b0d0a02277085840e883c41834cb8f1df38ae7b"
+                "reference": "f140d18e321dddabde68aed0e765470290b93520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/figuren-theater/code-quality/zipball/3b0d0a02277085840e883c41834cb8f1df38ae7b",
-                "reference": "3b0d0a02277085840e883c41834cb8f1df38ae7b",
+                "url": "https://api.github.com/repos/figuren-theater/code-quality/zipball/f140d18e321dddabde68aed0e765470290b93520",
+                "reference": "f140d18e321dddabde68aed0e765470290b93520",
                 "shasum": ""
             },
             "require": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
-                "ergebnis/composer-normalize": "^2.31",
-                "figuren-theater/coding-standards": "^0",
-                "figuren-theater/phpstan": "^1",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "ergebnis/composer-normalize": "^2",
+                "figuren-theater/coding-standards": "*",
+                "figuren-theater/phpstan": "*",
                 "phpstan/extension-installer": "^1.3"
             },
             "type": "library",
@@ -886,7 +886,7 @@
                 "issues": "https://github.com/figuren-theater/code-quality/issues",
                 "source": "https://github.com/figuren-theater/code-quality"
             },
-            "time": "2023-07-11T12:28:47+00:00"
+            "time": "2023-07-17T11:44:04+00:00"
         },
         {
             "name": "figuren-theater/coding-standards",
