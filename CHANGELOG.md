@@ -2,9 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.19...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.20...HEAD)
 
 <!-- Content should be placed here -->
+## [1.2.20](https://github.com/figuren-theater/ft-core/compare/1.2.19...1.2.20) - 2023-08-25
+
+- Develop ([#37](https://github.com/figuren-theater/ft-core/pull/37))
+
 ## [1.2.19](https://github.com/figuren-theater/ft-core/compare/1.2.18...1.2.19) - 2023-07-16
 
 ### 🐛 Fixed
