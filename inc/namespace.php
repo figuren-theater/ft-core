@@ -8,7 +8,7 @@
  *
  * Core platform functions.
  *
- * @package altis/core
+ * @package figuren-theater\ft-core
  */
 
 namespace Figuren_Theater;

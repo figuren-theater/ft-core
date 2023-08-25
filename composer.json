@@ -29,7 +29,7 @@
     },
     "require": {
         "php": ">=7.1",
-        "composer/installers": "^1.12",
+        "composer/installers": "^1 || ^2",
         "figuren-theater/altis-core": "^0.1",
         "koodimonni/composer-dropin-installer": "^1.4"
     },
