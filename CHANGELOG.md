@@ -2,9 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.20...HEAD)
+## [Unreleased](https://github.com/figuren-theater/ft-core/compare/1.2.21...HEAD)
 
 <!-- Content should be placed here -->
+## [1.2.21](https://github.com/figuren-theater/ft-core/compare/1.2.20...1.2.21) - 2023-09-05
+
+### 🐛 Fixed
+
+- Downgrade composer/installers from v2.2.0 to 1.12 to avoid later dep-hell ([#39](https://github.com/figuren-theater/ft-core/pull/39))
+
+### Dependency Updates & Maintenance
+
+- Bump figuren-theater/code-quality from 0.6.7 to 0.7.0 ([#38](https://github.com/figuren-theater/ft-core/pull/38))
+
 ## [1.2.20](https://github.com/figuren-theater/ft-core/compare/1.2.19...1.2.20) - 2023-08-25
 
 - Develop ([#37](https://github.com/figuren-theater/ft-core/pull/37))
